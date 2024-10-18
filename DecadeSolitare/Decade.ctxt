@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Decade
+comment0.text=\r\n\ The\ Decade\ class\ manages\ an\ array\ of\ char\ that\ represents\r\n\ the\ cards\ that\ have\ been\ dealt\ in\ a\ game\ of\ Decade\ Solitaire.\r\n\r\n\ @author\ \ Shubu\ Aryal\r\n\ @version\ 10/10/23\r\n
+comment1.params=size
+comment1.target=void\ initCards(int)
+comment1.text=\r\n\ initCards\r\n\r\n\ populates\ the\ cards\ array\ with\ cards\ chosen\ randomly\ from\ the\ DECK.\r\n\ It's\ okay\ if\ some\ cards\ appear\ more\ than\ once.\r\n\r\n\ @param\ size\ \ how\ many\ cards\ should\ be\ placed\ in\ the\ array\r\n
+comment2.params=pos\ num
+comment2.target=int\ totalCards(int,\ int)
+comment2.text=\r\n\ totalCards\r\n\r\n\ calculates\ the\ total\ value\ of\ a\ sequence\ of\ 1\ or\ more\ cards\r\n\r\n\ @param\ pos\ \ \ the\ index\ of\ the\ first\ card\ in\ sequence\r\n\ @param\ num\ \ \ the\ number\ of\ cards\ in\ the\ sequence\r\n
+comment3.params=pos\ num
+comment3.target=void\ removeCards(int,\ int)
+comment3.text=\r\n\ removeCards\r\n\r\n\ removes\ a\ subsequence\ of\ cards\ from\ the\ array\ by\r\n\ replacing\ it\ with\ a\ new\ array\ that\ lacks\ those\ cards\r\n\r\n\ @param\ pos\ \ index\ of\ the\ first\ card\ to\ remove\r\n\ @param\ num\ \ the\ number\ of\ cards\ to\ remove\r\n
+comment4.params=pos\ num
+comment4.target=boolean\ hasDecade(int,\ int)
+comment4.text=\r\n\ return\ true\ if\ there\ is\ a\ decade\ (10,20,30)\ at\ the\ given\ position\r\n
+comment5.params=
+comment5.target=int\ findDecade()
+comment5.text=\r\n\ findDecade\r\n\r\n\ searches\ the\ array\ for\ a\ sequence\ of\ 2\ or\ more\ cards\ whose\r\n\ value\ sums\ to\ 10,\ 20\ or\ 30.\r\n\r\n\ @return\ the\ index\ of\ the\ first\ card\ in\ the\ sequence.\ \ If\ no\ such\ sequence\r\n\ exists\ the\ method\ returns\ -1\ instead.\r\n
+comment6.params=
+comment6.target=void\ shuffle()
+comment6.text=\r\n\ shuffle\r\n\r\n\ shuffles\ the\ values\ in\ the\ array\ into\ a\ random\ order\r\n
+numComments=7
